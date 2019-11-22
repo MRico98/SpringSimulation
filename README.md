@@ -1,2 +1,2 @@
 # SpringProyect
-Repository for spring framework web proyect
+Repository for Software architecture project
