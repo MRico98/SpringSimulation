@@ -3,7 +3,7 @@
         <class name="Controller.Controlador">
             <method>procesarPeticion</method>
         </class>
-        <class name="Model.VotesModel">
+        <class name="Model.VoteModel">
             <method>addvote</method>
         </class>
     </service>
@@ -11,7 +11,7 @@
         <class name="Controller.Controlador">
             <method>procesarPeticion</method>
         </class>
-        <class name="Model.VotesModel">
+        <class name="Model.VoteModel">
             <method>removeVote</method>
         </class>
     </service>
