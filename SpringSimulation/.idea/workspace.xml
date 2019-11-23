@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b97dec-34aa-4012-adce-17b6072249f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Configurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Configurator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/VoteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/VoteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1574396156707</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Nombre de clase erroneo, se corrigio">
+      <created>1574484542625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574484542626</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Se establecio la entrada y salida.">
+      <created>1574484605527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574484605527</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cambio del tipo de parametro que reciben los metodos Add y substract.">
+      <created>1574484705098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574484705098</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -147,6 +163,9 @@
     <MESSAGE value="Adicion de interfaz Controller" />
     <MESSAGE value="Creacion del Controlador de los votos" />
     <MESSAGE value="Wrapper de la accion correspondiente a los votos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrapper de la accion correspondiente a los votos" />
+    <MESSAGE value="Nombre de clase erroneo, se corrigio" />
+    <MESSAGE value="Se establecio la entrada y salida." />
+    <MESSAGE value="Cambio del tipo de parametro que reciben los metodos Add y substract." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio del tipo de parametro que reciben los metodos Add y substract." />
   </component>
 </project>
