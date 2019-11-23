@@ -1,22 +1,26 @@
 package Model;
 
+import Controller.Event;
+
 import java.util.HashMap;
 
-public class VoteModel {
+public class VoteModel{
     private HashMap<String,Integer> votes = new HashMap<>();
 
-    public void addvote(String candidate){
-        int vote = getVotes().get(candidate);
-        vote++;
-        votes.replace(candidate,vote);
+    public void addvote(Event event){
+        System.out.println("Aqui Estoy addvote");
+        //int vote = getVotes().get(candidate);
+        //vote++;
+        //votes.replace(candidate,vote);
     }
 
-    public void substractVote(String candidate){
-        int vote = getVotes().get(candidate);
+    public void substractVote(Event event){
+        System.out.println("Aqui Estoy substractVote");
+        /*int vote = getVotes().get(candidate);
         if (validate(vote)){
             vote--;
             votes.replace(candidate,vote);
-        }
+        }*/
     }
 
     //Aqui es donde deberiamos leer un archivo para que sea persistente los datos
