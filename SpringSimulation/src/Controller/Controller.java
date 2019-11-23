@@ -2,5 +2,5 @@ package Controller;
 
 
 public interface Controller {
-    public void procesarPeticion(Event event);
+    public Event procesarPeticion(String[] params);
 }
