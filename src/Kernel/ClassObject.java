@@ -1,3 +1,5 @@
+package Kernel;
+
 public class ClassObject {
     private String className;
     private String methodName;

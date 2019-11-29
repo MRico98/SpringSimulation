@@ -1,4 +1,4 @@
-package Controller;
+package Kernel.Controller;
 
 
 public class Controlador implements Controller {

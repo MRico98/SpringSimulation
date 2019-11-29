@@ -1,17 +1,17 @@
 <services>
     <service name="AddVote">
-        <class name="Controller.Controlador">
+        <class name="Kernel.Controller.Controlador">
             <method>procesarPeticion</method>
         </class>
-        <class name="Model.VoteModel">
+        <class name="Kernel.Model.VoteModel">
             <method>addvote</method>
         </class>
     </service>
-    <service name="RemoveVote">
+    <service name="Kernel.RemoveVote">
         <class name="Controller.Controlador">
             <method>procesarPeticion</method>
         </class>
-        <class name="Model.VoteModel">
+        <class name="Kernel.Model.VoteModel">
             <method>removeVote</method>
         </class>
     </service>

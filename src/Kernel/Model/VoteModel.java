@@ -1,6 +1,6 @@
-package Model;
+package Kernel.Model;
 
-import Controller.Event;
+import Kernel.Controller.Event;
 
 import java.util.HashMap;
 

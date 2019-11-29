@@ -1,3 +1,5 @@
+package Kernel;
+
 public class Configuration {
     ClassObject controller;
     ClassObject model;

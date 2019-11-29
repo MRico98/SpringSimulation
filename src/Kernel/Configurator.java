@@ -1,6 +1,7 @@
-import Controller.Controller;
-import Controller.Event;
-import Model.VoteModel;
+package Kernel;
+
+import Kernel.Controller.Controller;
+import Kernel.Controller.Event;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -77,7 +78,7 @@ public class Configurator {
 
     public static void main(String[] args){
         Configurator config = new Configurator();
-        config.loadConfigurations("C:\\Users\\diego\\Desktop\\ArquiRepo\\Repo\\SpringSimulation\\src\\config.xml");
+        config.loadConfigurations("C:\\Users\\mrico\\Desktop\\SpringSimulation\\src\\Kernel\\config.xml");
         String[] params = {"A","B","C"};
         config.doSomething("AddVote", params);
     }
