@@ -1,4 +1,4 @@
-package Kernel;
+package kernel;
 
 public class ClassObject {
     private String className;

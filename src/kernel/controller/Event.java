@@ -1,4 +1,4 @@
-package Kernel.Controller;
+package kernel.controller;
 
 public class Event {
     private String peticion;

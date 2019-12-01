@@ -1,0 +1,19 @@
+<services>
+    <service name="addvote">
+        <class name="kernel.controller.Controlador">
+            <method>procesarPeticion</method>
+        </class>
+        <class name="kernel.model.VoteModel">
+            <method>addvote</method>
+        </class>
+    </service>
+    <service name="substractVote">
+        <class name="kernel.controller.Controlador">
+            <method>procesarPeticion</method>
+        </class>
+        <class name="kernel.model.VoteModel">
+            <method>substractVote</method>
+        </class>
+    </service>
+
+</services>
